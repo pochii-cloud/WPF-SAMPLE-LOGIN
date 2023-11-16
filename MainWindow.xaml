@@ -5,7 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:login_sample"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow"
+        WindowState="Maximized"
+        WindowStartupLocation="CenterScreen"
+        >
     <StackPanel>
         <Grid Width="400" HorizontalAlignment="Center" Margin="0 50">
             <Grid.RowDefinitions>
