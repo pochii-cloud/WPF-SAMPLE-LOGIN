@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:login_sample"
         mc:Ignorable="d"
         Title="MainWindow"
-        WindowState="Maximized"
-        WindowStartupLocation="CenterScreen"
+         Height="450"
+        Width="800"
         >
     <StackPanel>
         <Grid Width="400" HorizontalAlignment="Center" Margin="0 50">
@@ -18,7 +18,7 @@
             </Grid.RowDefinitions>
             <TextBox Grid.Row="0" Name="usernameTextBox" Text="username" VerticalAlignment="Bottom" Padding="10" Margin="0 10"/>
             <TextBox Grid.Row="1" Name="emailTextBox" Text="email" Padding="10"/>
-            <Button Grid.Row="2" Margin="0 10" Click="Button_Click">Submit</Button>
+            <Button Grid.Row="2" Margin="0 10" Click="Button_Click" Content="Submit" Height="30"></Button>
         </Grid>
     </StackPanel>
 </Window>
